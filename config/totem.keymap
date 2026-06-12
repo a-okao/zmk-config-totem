@@ -93,10 +93,10 @@
 
         num_layer {
             bindings = <
-            &kp KP_ASTERISK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS     &kp HOME            &kp PG_UP           &kp PG_DN            &kp END              &kp DELETE
-            &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS    &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW      &trans
-&kp KP_DOT  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL    &kp LG(LEFT_ARROW)  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &kp LG(RIGHT_ARROW)  &trans      &trans
-                                        &trans     &trans     &trans          &trans              &trans              &trans
+            &kp KP_ASTERISK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS     &kp CARET        &kp AMPERSAND  &kp ASTRK  &trans      &trans
+            &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS    &kp EXCLAMATION  &kp AT_SIGN    &kp POUND  &kp DOLLAR  &kp PERCENT
+&kp KP_DOT  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_EQUAL    &trans           &trans         &trans     &trans      &trans       &trans
+                                        &trans     &trans     &trans          &trans           &trans         &trans
             >;
         };
 

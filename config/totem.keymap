@@ -141,10 +141,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL   &kp AT         &kp HASH      &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-        &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &trans     &trans         &trans        &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans        &trans    &trans       &trans        &kp C_PP        &trans
+        &kp EXCL   &kp AT         &kp HASH      &kp DLLR  &kp PRCNT    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+        &kp CARET  &kp AMPERSAND  &kp ASTERISK  &trans    &trans       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp RA(GREATER_THAN)  &kp PIPE
+&trans  &kp GRAVE  &kp TILDE      &trans        &trans    &trans       &kp SEMICOLON         &kp COLON              &kp SQT         &kp DOUBLE_QUOTES     &kp QUESTION   &trans
+                                  &trans        &trans    &trans       &trans                &kp C_PP               &trans
             >;
         };
 

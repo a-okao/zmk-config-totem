@@ -13,7 +13,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
 #define NAV  1
@@ -85,10 +84,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q       &kp W             &kp E        &kp R           &kp T        &kp Y    &kp U            &kp I        &kp O         &kp P
-         &mt LGUI A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G        &kp H    &mt RIGHT_ALT J  &mt RCTRL K  &mt RSHIFT L  &mt RGUI MINUS
-&kp ESC  &kp Z       &kp X             &kp C        &kp V           &kp B        &kp N    &kp M            &kp COMMA    &kp DOT       &kp FSLH        &kp DEL
-                                       &kp TAB      &lt 2 LANG2     &kp SPACE    &kp RET  &lt 3 LANG1      &kp BSPC
+         &kp Q       &kp W             &kp E        &kp R           &kp T          &kp Y    &kp U            &kp I        &kp O         &kp P
+         &mt LGUI A  &mt LEFT_SHIFT S  &mt LCTRL D  &mt LEFT_ALT F  &kp G          &kp H    &mt RIGHT_ALT J  &mt RCTRL K  &mt RSHIFT L  &mt RGUI MINUS
+&kp ESC  &kp Z       &kp X             &kp C        &kp V           &kp B          &kp N    &kp M            &kp COMMA    &kp DOT       &kp FSLH        &kp DEL
+                                       &kp TAB      &lt 1 LANG2     &lt 2 SPACE    &kp RET  &lt 1 LANG1      &kp BSPC
             >;
         };
 
@@ -166,10 +165,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                 &trans        &trans  &trans    &trans  &trans  &trans
+        &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4     &trans  &kp F7  &kp F8  &kp F9  &kp F12
+        &bt BT_PRV     &bt BT_NXT     &bt BT_CLR     &bt BT_CLR_ALL  &trans           &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                      &trans         &trans          &trans           &trans  &trans  &trans
             >;
         };
     };

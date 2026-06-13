@@ -74,7 +74,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp LS(LEFT_BRACKET) &kp LS(RIGHT_BRACKET) &kp LEFT_ARROW>;
+                <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>;
 
             label = "KAGI_KAKKO";
         };

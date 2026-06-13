@@ -60,6 +60,13 @@
                 <&macro_tap>,
                 <&kp G &kp I &kp F>;
         };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "KAKKO";
+        };
     };
 
     keymap {
@@ -117,10 +124,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LG(Q)  &kp LG(W)  &kp LG(L)      &kp LG(R)  &kp LG(T)    &trans  &trans  &trans  &trans  &trans
-        &kp LG(A)  &kp LG(S)  &kp LG(DOWN)   &kp LG(F)  &kp LG(G)    &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LG(B)    &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp LG(LS(Z))  &trans     &trans       &trans  &trans  &trans
+                      &kp LG(Q)  &kp LG(W)  &kp LG(L)      &kp LG(R)  &kp LG(T)    &trans  &trans  &trans  &trans  &trans
+                      &kp LG(A)  &kp LG(S)  &kp LG(DOWN)   &kp LG(F)  &kp LG(G)    &trans  &trans  &trans  &trans  &trans
+&kp LG(LS(NUMBER_2))  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LG(B)    &trans  &trans  &trans  &trans  &trans  &trans
+                                            &kp LG(LS(Z))  &trans     &trans       &trans  &trans  &trans
             >;
         };
 

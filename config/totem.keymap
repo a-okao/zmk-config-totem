@@ -117,10 +117,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LG(Q)  &kp LG(W)  &kp LG(L)      &kp LG(R)  &kp LG(T)    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LG(A)  &kp LG(S)  &kp LG(DOWN)   &kp LG(F)  &kp LG(G)    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LG(B)    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                              &kp LG(LS(Z))  &trans     &trans       &mo 4     &kp KP_N0  &trans
+        &kp LG(Q)  &kp LG(W)  &kp LG(L)      &kp LG(R)  &kp LG(T)    &trans  &trans  &trans  &trans  &trans
+        &kp LG(A)  &kp LG(S)  &kp LG(DOWN)   &kp LG(F)  &kp LG(G)    &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)      &kp LG(V)  &kp LG(B)    &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp LG(LS(Z))  &trans     &trans       &trans  &trans  &trans
             >;
         };
 

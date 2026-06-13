@@ -72,7 +72,9 @@
         kagi_kakko: kagi_kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LBRC &kp RIGHT_BRACE &kp LEFT_ARROW>;
+            bindings =
+                <&macro_tap>,
+                <&kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_ARROW>;
 
             label = "KAGI_KAKKO";
         };

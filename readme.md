@@ -1,3 +1,7 @@
+## このリポジトリについて
+
+本リポジトリは、[GEIGEIGEIST/zmk-config-totem](https://github.com/GEIGEIGEIST/zmk-config-totem) をフォーク元としています。フォーク元リポジトリの内容を日本語に翻訳し、キーマップの変更方法、特に Keymap Editor を使ったキーマップ変更手順がわかるように説明を追加したものです。
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/docs/images/TOTEM_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="/docs/images/TOTEM_logo_bright.svg">

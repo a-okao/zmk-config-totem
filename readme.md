@@ -22,7 +22,7 @@ TOTEM は、[ZMK](https://zmk.dev/) または [QMK](https://docs.qmk.fm/) で動
 どちらの方法でも、リポジトリのForkとGitHub ActionsでのビルドにGitHubアカウントが必要です。
 
 - [TOTEM標準の方法で変更する](docs/keymap-standard.md)
-- [Keymap Editorで変更する](docs/keymap-editor.md)
+- [Keymap Editorで変更する](docs/keymap-editor.md)（おすすめ）
 
 ## 参考
 

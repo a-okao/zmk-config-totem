@@ -16,15 +16,22 @@ TOTEM は、[ZMK](https://zmk.dev/) または [QMK](https://docs.qmk.fm/) で動
 
 
 
-## 使い方
+## キーマップの変更方法
 
-- このリポジトリをフォークします
-- 自分のリポジトリを `git clone` して、PC 上にローカルコピーを作成します（[コマンドライン](https://www.atlassian.com/git/tutorials)または [GitHub Desktop](https://desktop.github.com/) を使用できます）
-- `totem.keymap` ファイルを調整します（すべてのキーコードは [ZMK ドキュメント](https://zmk.dev/docs/codes/)で確認できます）
-- 自分のフォークへ `git push` します
-- GitHub 上のフォークしたリポジトリページで「Actions」に移動します
-- 下へスクロールし、最新ファームウェアが含まれる `firmware.zip` アーカイブを展開します
-- TOTEM の左半分を PC に接続し、リセットを 2 回押します
-- キーボードがマスストレージデバイスとして表示されます
-- アーカイブ内の `totem_left-seeeduino_xiao_ble-zmk.uf2` ファイルを、そのストレージデバイスへドラッグ＆ドロップします
-- 右半分も同様に、`totem_right-seeeduino_xiao_ble-zmk.uf2` ファイルで同じ手順を繰り返します
+キーマップは、以下のどちらかの方法で変更できます。
+どちらの方法でも、リポジトリのForkとGitHub ActionsでのビルドにGitHubアカウントが必要です。
+
+- [TOTEM標準の方法で変更する](docs/keymap-standard.md)
+- [Keymap Editorで変更する](docs/keymap-editor.md)
+
+## 参考
+
+- [GEIGEIGEIST/zmk-config-totem](https://github.com/GEIGEIGEIST/zmk-config-totem): TOTEM向けZMK設定の元リポジトリ
+- [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM): TOTEM本体のハードウェア情報とビルドガイド
+- [Keymap Editor](https://github.com/nickcoutsos/keymap-editor): ブラウザでZMKキーマップを編集するツール
+- [roBa buildguide_v2.md](https://github.com/kumamuk-git/roBa/blob/main/doc/v2/buildguide_v2.md): roBaのZMK/Keymap Editorを使ったビルドガイド
+- [Zonkey向けKeymap Editor入門記事](https://note.com/goya_k/n/n442a326047e5): Keymap Editorの画面操作を追いやすい入門記事
+- [urob/zmk-config](https://github.com/urob/zmk-config): 高度なZMK設定例がまとまっている参考リポジトリ
+- [ZMK User Setup](https://zmk.dev/docs/user-setup): ZMKユーザー設定リポジトリ作成の公式ドキュメント
+- [ZMK Keymaps](https://zmk.dev/docs/keymaps): ZMKキーマップ全般の公式ドキュメント
+- [ZMK Layer Behaviors](https://zmk.dev/docs/keymaps/behaviors/layers): ZMKのレイヤー操作Behaviorの公式ドキュメント

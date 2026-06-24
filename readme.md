@@ -4,27 +4,27 @@
   <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
 </picture>
 
-# ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
+# TOTEM 分割キーボード用 ZMK 設定
 
-[Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
-[Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
+[こちら](https://github.com/GEIGEIGEIST/totem)で、ハードウェアファイルとビルドガイドを確認できます。\
+[こちら](https://github.com/GEIGEIGEIST/qmk-config-totem)で、TOTEM 用の QMK 設定を確認できます。
 
-TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/) or [QMK](https://docs.qmk.fm/). It's meant to be used with a SEEED XIAO BLE or RP2040.
+TOTEM は、[ZMK](https://zmk.dev/) または [QMK](https://docs.qmk.fm/) で動作する 38 キーのカラムスタッガード分割キーボードです。SEEED XIAO BLE または RP2040 での使用を想定しています。
 
 
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
 
 
 
-## HOW TO USE
+## 使い方
 
-- fork this repo
-- `git clone` your repo, to create a local copy on your PC (you can use the [command line](https://www.atlassian.com/git/tutorials) or [github desktop](https://desktop.github.com/))
-- adjust the totem.keymap file (find all the keycodes on [the zmk docs pages](https://zmk.dev/docs/codes/))
-- `git push` your repo to your fork
-- on the GitHub page of your fork navigate to "Actions"
-- scroll down and unzip the `firmware.zip` archive that contains the latest firmware
-- connect the left half of the TOTEM to your PC, press reset twice
-- the keyboard should now appear as a mass storage device
-- drag'n'drop the `totem_left-seeeduino_xiao_ble-zmk.uf2` file from the archive onto the storage device
-- repeat this process with the right half and the `totem_right-seeeduino_xiao_ble-zmk.uf2` file.
+- このリポジトリをフォークします
+- 自分のリポジトリを `git clone` して、PC 上にローカルコピーを作成します（[コマンドライン](https://www.atlassian.com/git/tutorials)または [GitHub Desktop](https://desktop.github.com/) を使用できます）
+- `totem.keymap` ファイルを調整します（すべてのキーコードは [ZMK ドキュメント](https://zmk.dev/docs/codes/)で確認できます）
+- 自分のフォークへ `git push` します
+- GitHub 上のフォークしたリポジトリページで「Actions」に移動します
+- 下へスクロールし、最新ファームウェアが含まれる `firmware.zip` アーカイブを展開します
+- TOTEM の左半分を PC に接続し、リセットを 2 回押します
+- キーボードがマスストレージデバイスとして表示されます
+- アーカイブ内の `totem_left-seeeduino_xiao_ble-zmk.uf2` ファイルを、そのストレージデバイスへドラッグ＆ドロップします
+- 右半分も同様に、`totem_right-seeeduino_xiao_ble-zmk.uf2` ファイルで同じ手順を繰り返します

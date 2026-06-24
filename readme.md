@@ -4,27 +4,34 @@
   <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
 </picture>
 
-# ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
+# TOTEM 分割キーボード用 ZMK 設定
 
-[Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
-[Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
+[こちら](https://github.com/GEIGEIGEIST/totem)で、ハードウェアファイルとビルドガイドを確認できます。\
+[こちら](https://github.com/GEIGEIGEIST/qmk-config-totem)で、TOTEM 用の QMK 設定を確認できます。
 
-TOTEM is a 38 key column-staggered split keyboard running [ZMK](https://zmk.dev/) or [QMK](https://docs.qmk.fm/). It's meant to be used with a SEEED XIAO BLE or RP2040.
+TOTEM は、[ZMK](https://zmk.dev/) または [QMK](https://docs.qmk.fm/) で動作する 38 キーのカラムスタッガード分割キーボードです。SEEED XIAO BLE または RP2040 での使用を想定しています。
 
 
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
 
 
 
-## HOW TO USE
+## キーマップの変更方法
 
-- fork this repo
-- `git clone` your repo, to create a local copy on your PC (you can use the [command line](https://www.atlassian.com/git/tutorials) or [github desktop](https://desktop.github.com/))
-- adjust the totem.keymap file (find all the keycodes on [the zmk docs pages](https://zmk.dev/docs/codes/))
-- `git push` your repo to your fork
-- on the GitHub page of your fork navigate to "Actions"
-- scroll down and unzip the `firmware.zip` archive that contains the latest firmware
-- connect the left half of the TOTEM to your PC, press reset twice
-- the keyboard should now appear as a mass storage device
-- drag'n'drop the `totem_left-seeeduino_xiao_ble-zmk.uf2` file from the archive onto the storage device
-- repeat this process with the right half and the `totem_right-seeeduino_xiao_ble-zmk.uf2` file.
+キーマップは、以下のどちらかの方法で変更できます。
+どちらの方法でも、リポジトリのForkとGitHub ActionsでのビルドにGitHubアカウントが必要です。
+
+- [TOTEM標準の方法で変更する](docs/keymap-standard.md)
+- [Keymap Editorで変更する](docs/keymap-editor.md)
+
+## 参考
+
+- [GEIGEIGEIST/zmk-config-totem](https://github.com/GEIGEIGEIST/zmk-config-totem): TOTEM向けZMK設定の元リポジトリ
+- [GEIGEIGEIST/TOTEM](https://github.com/GEIGEIGEIST/TOTEM): TOTEM本体のハードウェア情報とビルドガイド
+- [Keymap Editor](https://github.com/nickcoutsos/keymap-editor): ブラウザでZMKキーマップを編集するツール
+- [roBa buildguide_v2.md](https://github.com/kumamuk-git/roBa/blob/main/doc/v2/buildguide_v2.md): roBaのZMK/Keymap Editorを使ったビルドガイド
+- [Zonkey向けKeymap Editor入門記事](https://note.com/goya_k/n/n442a326047e5): Keymap Editorの画面操作を追いやすい入門記事
+- [urob/zmk-config](https://github.com/urob/zmk-config): 高度なZMK設定例がまとまっている参考リポジトリ
+- [ZMK User Setup](https://zmk.dev/docs/user-setup): ZMKユーザー設定リポジトリ作成の公式ドキュメント
+- [ZMK Keymaps](https://zmk.dev/docs/keymaps): ZMKキーマップ全般の公式ドキュメント
+- [ZMK Layer Behaviors](https://zmk.dev/docs/keymaps/behaviors/layers): ZMKのレイヤー操作Behaviorの公式ドキュメント

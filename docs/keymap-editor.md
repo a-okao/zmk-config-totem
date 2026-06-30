@@ -73,7 +73,7 @@ Keymap Editorを使う場合、通常はリポジトリ内のファイルを直�
 
 ## おまけ: バッテリー残量を確認する
 
-[zmk-battery-center](https://github.com/kot149/zmk-battery-center) を使うと、ZMKキーボードのバッテリー残量をPCのシステムトレイから確認できます。分割キーボードのcentral側とperipheral側、つまりTOTEMでは左右それぞれのバッテリー残量表示に対応しています。
+[zmk-battery-center](https://github.com/kot149/zmk-battery-center) を使うと、ZMKキーボードのバッテリー残量をPCのシステムトレイから確認できます。分割キーボードのcentral側とperipheral側、つまり左右それぞれのバッテリー残量表示に対応しています。TOTEMは左手が親機（central）、右手が子機（peripheral）となります。
 
 ## 注意点
 

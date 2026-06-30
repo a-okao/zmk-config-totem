@@ -2,7 +2,7 @@
 
 [roBa のビルドガイド](https://github.com/kumamuk-git/roBa/blob/main/doc/v2/buildguide_v2.md)や[Zonkey の Keymap Editor 入門記事](https://note.com/goya_k/n/n442a326047e5)と同じく、「自分の GitHub フォークを Keymap Editor で編集し、GitHub Actions でUF2を作る」流れで使います。
 
-これらのサイトも今回の手順とほぼ同じ流れで説明されています。途中で画面操作に迷った場合は、そちらも参考にしつつ、Keymap EditorやZMKの最新情報は各自で確認してください。
+上記のサイトも今回の手順とほぼ同じ流れで説明されています。途中で画面操作に迷った場合は、そちらも参考にしつつ、Keymap EditorやZMKの最新情報は各自で確認してください。
 
 ## 初回準備
 
